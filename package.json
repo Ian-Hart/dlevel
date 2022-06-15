@@ -1,0 +1,26 @@
+{
+  "name": "dlevel",
+  "version": "0.1",
+  "description": "Hierarchical NoSQL database based on level and LevelDB",
+  "scripts": {
+    "test": "node ./test | node_modules/.bin/tap-spec-emoji"
+  },
+  "author": "Ian J Hart",
+  "license": "MIT",
+  "dependencies": {
+    "cuid": "^2.1.8",
+    "dotenv": "^16.0.1",
+    "flat": "^5.0.2",
+    "level": "^8.0.0",
+    "level-concat-iterator": "^3.1.0",
+    "winston": "^3.6.0",
+    "winston-daily-rotate-file": "^4.6.1"
+  },
+  "devDependencies": {
+    "deep-object-diff": "^1.1.7",
+    "del": "^6.1.1",
+    "fs-extra": "^10.1.0",
+    "tap-spec-emoji": "^6.1.2",
+    "tape": "^5.2.2"
+  }
+}
