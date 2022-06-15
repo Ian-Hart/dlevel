@@ -30,7 +30,7 @@ await dlevel.entry.put({deepKey:'!root!!searches!!shop_endpoint!hg5afb', url: 'w
 
 // Create a branched sublevel for ebay for different products
 let product_schema = {product_cat: 'Category of product'};
-await dlevel.sublevel.create('!root!!searches!!shop_endpoints!hg5afb!products', product_schema);
+await dlevel.sublevel.branch('!root!!searches!!shop_endpoints!hg5afb!products', product_schema);
 
 // Add a entry for ebay products branch for shoes. 
 // Key for entry is: hg5afb.
@@ -44,7 +44,6 @@ let deepLevel = '!root!!searches!!shop_endpoint!';
 let doesExist = await dlevel.sublevel.exists(deepLevel)
 console.log(doesExist);  // True
 
-console.log("GET");
 // Get the a entry in the searches sublevel using specific deepKey of !root!!searches!cl3bk9xj
 let shop_search_value = await dlevel.entry.get('!root!!searches!cl3bk9xj');
 console.log(shop_search_value);
