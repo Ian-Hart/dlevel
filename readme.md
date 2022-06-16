@@ -1,14 +1,13 @@
-# deep-level
+# deep-level (Beta)
 
-deep-level is a collection of convenience utilities that wraps [`classic-level`](https://github.com/Level/classic-level) in Node.js, a LevelDB back database.  It was developed to easily manage highly dynamic deep hierachies of sublevels which are regularly created and destroyed. The database and individual sublevels are also able to exported and imported in JSON format. All database operations are logged with entries timestamped.
+deep-level (dlevel for short) is a collection of convenience utilities that wraps [`classic-level`](https://github.com/Level/classic-level) in Node.js, a LevelDB back database.  It was developed to easily manage highly dynamic deep hierachies of sublevels which are regularly created and destroyed. The database and individual sublevels are also able to exported and imported in JSON format. All database operations are logged with entries timestamped.
 
-[![Node version](https://img.shields.io/node/v/level.svg)](https://www.npmjs.com/package/level)
 
 ## Table of Contents
 
 <details><summary>Click to expand</summary>
 
-- [deep-level](#deep-level)
+- [deep-level (Beta)](#deep-level-beta)
   - [Table of Contents](#table-of-contents)
   - [Concepts](#concepts)
   - [Environment Variables](#environment-variables)
